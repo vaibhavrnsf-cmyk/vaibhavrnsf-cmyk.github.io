@@ -1,1 +1,0 @@
-# vaibhavrnsf-cmyk.github.io
