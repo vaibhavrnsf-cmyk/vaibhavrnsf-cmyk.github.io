@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kiztopia Singapore – Basic Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:#f5f5f5;
+      color:#333;
+    }
+    header{
+      background:#ff6b6b;
+      color:#fff;
+      padding:16px 24px;
+    }
+    nav a{
+      color:#fff;
+      margin-right:16px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .container{
+      padding:24px;
+      max-width:900px;
+      margin:auto;
+    }
+    .card{
+      background:#fff;
+      padding:16px;
+      margin-bottom:16px;
+      border-radius:6px;
+    }
+    h1,h2{
+      margin-top:0;
+    }
+    button{
+      background:#ff6b6b;
+      color:#fff;
+      border:none;
+      padding:10px 14px;
+      border-radius:4px;
+      cursor:pointer;
+    }
+    footer{
+      text-align:center;
+      padding:16px;
+      font-size:13px;
+      color:#666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kiztopia Singapore (Demo)</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#attractions">Attractions</a>
+    <a href="#tickets">Tickets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container" id="home">
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>This is a very basic UI-only demo site for Kiztopia Singapore. No real booking or payment happens here.</p>
+    <button onclick="alert('Demo only')">Book Now</button>
+  </div>
+
+  <div class="card" id="attractions">
+    <h2>Attractions</h2>
+    <ul>
+      <li>Soft Play Area</li>
+      <li>Learning Zones</li>
+      <li>Birthday Party Rooms</li>
+    </ul>
+  </div>
+
+  <div class="card" id="tickets">
+    <h2>Tickets (Sample)</h2>
+    <p>Child Ticket: SGD 25</p>
+    <p>Adult Ticket: SGD 10</p>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Singapore</p>
+    <p>Email: demo@kiztopia.com</p>
+    <p>Phone: +65 6000 0000</p>
+  </div>
+</div>
+
+<footer>
+  © Kiztopia Demo – UI testing only
+</footer>
+
+</body>
+</html>
